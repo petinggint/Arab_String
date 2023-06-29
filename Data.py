@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+Hey Kontol {}
 
 Welcome to {}
 
@@ -13,27 +13,27 @@ You can use me to generate pyrogram and telethon string session. Use the below b
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("⚜ Start Generating Session ⚜", callback_data="generate")],
-        [InlineKeyboardButton(text=" Back ", callback_data="home")]
+        [InlineKeyboardButton("• Start Generating Session •", callback_data="generate")],
+        [InlineKeyboardButton(text="• Back •", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+        [InlineKeyboardButton("• Start Generating Session •", callback_data="generate")]
     ]
 
     support_button = [
-        [InlineKeyboardButton("⚜ Support ⚜", url="https://t.me/LegendBot_XD")]
+        [InlineKeyboardButton("• Support •", url="https://t.me/SiArabSupport")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("👨‍💻 Repo 👨‍💻", url="https://github.com/LEGEND-AI/STRING-GENERATE")],
+        [InlineKeyboardButton("• Start Generating Session •", callback_data="generate")],
+        [InlineKeyboardButton("Link Slot Gacor", url="https://t.me/SlottersArab")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton(" About", callback_data="about")
+            InlineKeyboardButton("How to Use ?", callback_data="help"),
+            InlineKeyboardButton("• About •", callback_data="about")
         ],
-        [InlineKeyboardButton("🇮🇳 Owner 🇮🇳", url="https://t.me/LegendBoy_XD")],
+        [InlineKeyboardButton("• Devs Bot •", url="https://t.me/Arabnihnge")],
     ]
 
     # Help Message
@@ -53,5 +53,5 @@ A telegram bot to generate pyrogram and telethon string session...
 [Telethon](docs.telethon.org)
 
 Language : [Python](www.python.org)
-            **Regarding ~ **@LegendBot_XD
+            **Regarding ~ **Arabnihnge
 """
