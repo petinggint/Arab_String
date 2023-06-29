@@ -115,7 +115,7 @@ async def generate_session(bot, msg, telethon=False):
     else:
         string_session = await client.export_session_string()
     text = "**{} ~ STRING SESSION** \n\n`{}` \n\n• __Jangan Di Share Atau Lu Bagikan Ke Orang-Orang__\n• __String Session by @Arabnihnge | @SiArabSupport__".format("TELETHON" if telethon else "PYROGRAM", string_session)
-    L_PIC = "https://te.legra.ph/file/4cd4fe720a6bd77481158.jpg"
+    L_PIC = "https://telegra.ph//file/ed02adf5d4e627549644f.jpg"
     #await msg.reply({text})
     if telethon:
         await client.send_file("me", L_PIC, caption="**{} - STRING SESSION** \n\n`{}`\n\n• __Dont Share String Session With Anyone__\n• __Dont Invite Anyone To Heroku__".format("TELETHON" if telethon else "PYROGRAM", string_session))
