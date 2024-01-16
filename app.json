@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/petinggint/Arab_String",
+  "repository": "https://github.com/Itztonystark/STRING-GENERATE",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
