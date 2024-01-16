@@ -4,7 +4,7 @@ ENVIRONMENT = os.environ.get('ENVIRONMENT', False)
 
 if ENVIRONMENT:
     try:
-        API_ID = int(os.environ.get('API_ID', 12857763))
+        API_ID = int(os.environ.get('API_ID', 23371587))
     except ValueError:
         raise Exception("Your API_ID is not a valid integer.")
     API_HASH = os.environ.get('API_HASH', None)
@@ -17,11 +17,11 @@ if ENVIRONMENT:
         #MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = 12857763
-    API_HASH = "7b71e8bca0d5e1c6d8383ae818d9ec8d"
-    BOT_TOKEN = "6226710573:AAGivcyz_Vok1wg4dzagsQE9w50zVP4wW5o"
+    API_ID = 23371587
+    API_HASH = "a014ed669df0aa68734b5ecf93e65a3a"
+    BOT_TOKEN = "6742240257:AAHH7RDQILs6eHQFtdXwy02eLFsuNheQsx0"
     DATABASE_URL = "postgres://rwiubjut:GC9GMoJd3JZc9srWVcw2jtKmCOlosbn9@rosie.db.elephantsql.com/rwiubjut"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = "@SiArab_Store"
+    MUST_JOIN = "@Berlinmusic_support"
     #if MUST_JOIN.startswith("@"):
        # MUST_JOIN = MUST_JOIN[1:]
