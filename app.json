@@ -46,6 +46,10 @@
       "description": "Obtain a Telegram bot token by contacting @BotFather",
       "required": true,
       "value": "6742240257:AAHH7RDQILs6eHQFtdXwy02eLFsuNheQsx0"
+     "OWNER_ID": {
+      "description": "Fill your user id here. (Must be integer)",
+      "value": "1499130346",
+      "required": true
     }
   }
 }
