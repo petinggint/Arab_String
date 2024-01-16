@@ -1,7 +1,7 @@
 {
   "name": "String Session Generator",
   "description": "Telegram bot to generate Pyrogram & Telethon StringSession Made By LegendBoy(@LegendBoy_XD) Edited By Tony Stark For Education",
-  "logo": "https://te.legra.ph/file/85a68063ace8fd5a28596.jpg",
+  "logo": "https://graph.org/file/a0b83a9660f4479d8079a.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/Itztonystark/STRING-GENERATE",
+  "repository": "https://github.com/petinggint/Arab_String",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -35,17 +35,17 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
-      "value": ""
+      "value": "23371587"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
-      "value": ""
+      "value": "a014ed669df0aa68734b5ecf93e65a3a"
     },
     "BOT_TOKEN": {
       "description": "Obtain a Telegram bot token by contacting @BotFather",
       "required": true,
-      "value": ""
+      "value": "6742240257:AAHH7RDQILs6eHQFtdXwy02eLFsuNheQsx0"
     }
   }
 }
